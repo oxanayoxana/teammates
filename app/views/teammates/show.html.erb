@@ -1,6 +1,12 @@
 <p id="notice"><%= notice %></p>
 
 <p>
+  <strong>Photo:</strong>
+  <%= image_tag(@teammate.photo_url.to_s) %>
+</p>
+
+
+<p>
   <strong>Name:</strong>
   <%= @teammate.name %>
 </p>

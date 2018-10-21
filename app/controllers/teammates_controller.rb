@@ -69,6 +69,6 @@ class TeammatesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def teammate_params
-      params.require(:teammate).permit(:name, :role, :about)
+      params.require(:teammate).permit(:name, :role, :about, :photo)
     end
 end
